@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 })
 
 function ready() {
-	let url = 'https://api.sheety.co/phill/youflix/videos';
+	let url = 'https://api.sheety.co/61e14a7b89ac40cd1ba6ae9aedac3e01/youflix/videos';
 	fetch(url)
 	.then((response) => response.json())
 	.then(json => {
